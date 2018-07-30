@@ -12,10 +12,10 @@ In our Java or Android project sometimes we need to use multiple timer for vario
            }
            
            public void startTimer(){
-              RingIDTimer.start(this);
+              EfficientTimer.start(this);
            }
            public void stopTimer(){
-              RingIDTimer.removeObserver(this);
+              EfficientTimer.removeObserver(this);
            }
         
              @Override

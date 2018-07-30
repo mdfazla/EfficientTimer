@@ -21,6 +21,7 @@ In our Java or Android project sometimes we need to use multiple timer for vario
              @Override
              public void onTick() {
                ///Get notification at your interval time///
+               /// You you want to update any UI make sure update it from UI thread.
              }
 
              @Override
